@@ -5,7 +5,7 @@ body {
   justify-content: space-evenly;
   height: 100vh;
   margin: 0;
-  background: url("images/image.jpg") repeat;
+  background: url("img/image.jpg") repeat;
   font-size: 35px;
   color: rgb(255, 0, 174);
   height: 100vh;
@@ -36,7 +36,7 @@ body .container {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.image {
+.img {
   height: calc(100vh - 600px);
 }
 
@@ -67,9 +67,6 @@ body .container {
   flex-direction: row;
 }
 
-#no-button {
-}
-
 .hidden-message {
   display: none;
   margin-top: 20px;
@@ -79,17 +76,7 @@ body .container {
   font-family: "Courier New", Courier, monospace;
 }
 
-@media (min-width: 576px) {
-  .subtitle {
-    font-size: 40px;
-  }
-
-  .title {
-    font-size: 60px;
-  }
-}
-
-// Medium devices (tablets, 768px and up)
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .subtitle {
     font-size: 40px;
@@ -100,7 +87,7 @@ body .container {
   }
 }
 
-// Large devices (desktops, 992px and up)
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .subtitle {
     font-size: 40px;
@@ -111,7 +98,7 @@ body .container {
   }
 }
 
-// X-Large devices (large desktops, 1200px and up)
+/* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .subtitle {
     font-size: 40px;
